@@ -19,16 +19,13 @@
 
 .card{
     width: calc((100vw - 50px) / 2 - 20px);
-    height: calc((100vw - 50px) / 2 - 20px);
+    /* height: calc((100vw - 50px) / 2 - 20px); */
     margin: 10px;
-    background-color: rgb(0, 255, 30);
+/*     background-color: rgb(0, 255, 30); */
 }
 
 .circle{
     width: calc((100vw - 50px) / 2 - 20px);
-    height: calc((100vw - 50px) / 2 - 20px);
-    background-color: rgb(0, 255, 30);
-    border-radius: 50%;
     margin: 10px;
 }
 
@@ -38,6 +35,10 @@
 
 .padding-x{
     padding-top: 80px;
+}
+
+.padding-bot{
+    padding-bottom: 100px;
 }
 
 .s-between{
@@ -108,10 +109,45 @@ header{
     font-weight: bold;
 }
 
-#recently{
+h2{
     color: white;
     font-size: 23px;
-    margin: 25px 10px;
+    margin: 20px 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.circle img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sub-card{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.song{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.author{
+    color: #7c7e83;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.subject{
+    color: #7c7e83;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 25px;
 }
 
 .content-footer{
@@ -130,12 +166,10 @@ header{
 
     .card{
         width: calc((100vw - 230px) / 2 - 20px);
-        height: calc((100vw - 230px) / 2 - 20px);
     }
 
     .circle{
         width: calc((100vw - 230px) / 2 - 20px);
-        height: calc((100vw - 230px) / 2 - 20px);
     }
     
 }
@@ -143,23 +177,21 @@ header{
 @media screen and (min-width: 768px){
     .card{
         width: calc((100vw - 230px) / 4 - 20px);
-        height: calc((100vw - 230px) / 4 - 20px);
+
     }
 
     .circle{
         width: calc((100vw - 230px) / 4 - 20px);
-        height: calc((100vw - 230px) / 4 - 20px);
+        
     }
 }
 
 @media screen and (min-width: 991px){
     .card{
         width: calc((100vw - 230px) / 6 - 20px);
-        height: calc((100vw - 230px) / 6 - 20px);
     }
 
     .circle{
         width: calc((100vw - 230px) / 6 - 20px);
-        height: calc((100vw - 230px) / 6 - 20px);
     }
 }
