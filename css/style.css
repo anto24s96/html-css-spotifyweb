@@ -90,6 +90,71 @@ header{
     height: 75px;
 }
 
+#upgrade-button{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bolder;
+/*     position: absolute;
+    top: 20px;
+    right: 10px; */
+}
+
+/* SIDEBAR */
+.sidebar-top{
+    height: 300px;
+    width: 100%;
+/*     background-color: red; */
+    align-items: center;
+}
+
+.sidebar-bot{
+    height: 100px;
+    width: 100%;
+/*     background-color: green; */
+}
+
+#logo-small{
+    width: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.nav-list{
+    margin-top: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+
+li img{
+    width: 30px;
+}
+
+.download{
+    width: 18px;
+    margin-right: 2px;
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.sidebar-bot{
+    justify-content: flex-end;
+    align-items: center;
+}
+
 /* MAIN CONTENT */
 .navbar{
     width: 100%;
@@ -154,23 +219,23 @@ h2{
 
 @media screen and (min-width: 576px){
     .sidebar{
-        width: 230px;
+        width: 250px;
     }
 
     .card{
-        width: calc((100vw - 230px) / 2 - 20px);
+        width: calc((100vw - 250px) / 2 - 20px);
     }
-}
+}   
 
 @media screen and (min-width: 768px){
     .card{
-        width: calc((100vw - 230px) / 4 - 20px);
+        width: calc((100vw - 250px) / 4 - 20px);
 
     }
 }
 
 @media screen and (min-width: 991px){
     .card{
-        width: calc((100vw - 230px) / 6 - 20px);
+        width: calc((100vw - 250px) / 6 - 20px);
     }
 }
