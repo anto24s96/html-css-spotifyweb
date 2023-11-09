@@ -65,11 +65,12 @@
     position: fixed;
     width: 100%;
     background-color: #282828;
-    /* height: 100px; */
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 0 20px;
+    padding-bottom: 20px;
 }
 
 .top-content{
@@ -108,6 +109,7 @@ header{
     border-radius: 50px;
     font-size: 12px;
     font-weight: bolder;
+    margin-right: 5px;
 }
 
 /* SIDEBAR */
@@ -236,6 +238,12 @@ h2{
 }
 
 /* FOOTER */
+/* left */
+.footer-player-left{
+    display: flex;
+    align-items: center;
+}
+
 .footer-player-left-cover{
     width: 40px;
     margin-right: 10px;
@@ -269,9 +277,107 @@ h2{
     margin: 3px;
 }
 
-.footer-player-left{
+/* middle */
+.footer-player-middle{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.player-buttons-list-center{
+    display: flex;
+    justify-content: center;
+}
+
+.player-buttons-list-center li{
+    list-style-type: none;
     display: flex;
     align-items: center;
+}
+
+.player-buttons-list-center li i{
+    font-size: 20px;
+    margin: 0 10px;
+    color: white;
+
+}
+
+#play-button{
+    font-size: 30px;
+}
+
+.footer-player-middle-slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.player-slider{
+    height: 4px;
+    width: 80%;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.elapsed-time{
+    width: 20%;
+    height: 4px;
+    background-color: lightgray;
+    border-radius: 5px;
+    position: relative;
+}
+
+.player-slider:hover .elapsed-time{
+    background-color: greenyellow;
+}
+
+.player-elapsed-point{
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.player-slider:hover .player-elapsed-point{
+    display: block;
+}
+
+.player-time{
+    color: white;
+    font-size: 10px;
+}
+
+/* RIGHT */
+.footer-player-right{
+    display: flex;
+    align-items: center;
+}
+
+.player-buttons-list-right{
+    display: flex;
+}
+
+#mini-slider{
+    width: 100px;
+}
+
+.footer-player-right-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.player-buttons-list-right li i{
+    margin-right: 15px;
+    color: white;
 }
 
 /* RESPONSIVE */
