@@ -607,6 +607,19 @@ h2{
         display: block;
     }
 
+    .footer-player-middle-slider{
+        justify-content: center;
+    }
+
+    .player-slider{
+        margin: 0 20px;
+    }
+
+    #mini-slider{
+        width: 100px;
+        margin: 0;
+    }
+
     .fa-list{
         display: block;
     }
@@ -614,9 +627,7 @@ h2{
     .fa-desktop{
         display: block;
     }
-    
-    
-
+     
     .footer-player-middle{
         width: 100%;
     }
@@ -632,6 +643,11 @@ h2{
 
     .sub-card{
         width: calc((100vw - 250px) / 4 - 20px);
+    }
+
+    .footer-player-left-icons{
+        display: flex;
+        flex-direction: row;
     }
 }
 
