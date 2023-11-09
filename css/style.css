@@ -316,6 +316,7 @@ h2{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+    display: none;
 }
 
 .footer-player-left-icons i{
@@ -330,7 +331,7 @@ h2{
 
 /* MIDDLE */
 .footer-player-middle{
-    width: 50%;
+    width: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -421,7 +422,7 @@ h2{
 }
 
 #mini-slider{
-    width: 100px;
+    width: 50px;
 }
 
 .footer-player-right-buttons{
@@ -443,6 +444,15 @@ h2{
 #upgrade-button:hover{
     font-size: 14px;
 }
+
+.fa-list{
+    display: none;
+}
+
+.fa-desktop{
+    display: none;
+}
+
 
 
 /* RESPONSIVE */
@@ -592,6 +602,14 @@ h2{
         margin: 0;
         margin-right: 10px;
     }    
+
+    .footer-player-left-icons{
+        display: block;
+    }
+
+    .footer-player-middle{
+        width: 100%;
+    }
 }   
 
 
