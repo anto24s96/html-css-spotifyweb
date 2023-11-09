@@ -607,6 +607,16 @@ h2{
         display: block;
     }
 
+    .fa-list{
+        display: block;
+    }
+    
+    .fa-desktop{
+        display: block;
+    }
+    
+    
+
     .footer-player-middle{
         width: 100%;
     }
