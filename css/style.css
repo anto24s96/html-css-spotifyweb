@@ -197,7 +197,6 @@ hr{
     align-self: center;
     flex-wrap: wrap;
     justify-content: center;
-    line-height: 4;
 }
 
 .navbar li{
@@ -206,6 +205,23 @@ hr{
     margin: 0 10px;
     font-size: 12px;
     font-weight: bold;
+    position: relative;
+    margin-top: 20px;
+}
+
+.navbar li:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: -2px;
+    left: 25%;
+    border-bottom: 2px solid yellowgreen;
+    display: none;
+}
+
+.navbar li:hover:before{
+    display: block;
 }
 
 h2{
@@ -292,6 +308,10 @@ h2{
     margin-top: 5px;
 }
 
+.footer-player-left-song-artist:hover{
+    color: white;
+}
+
 .footer-player-left-icons{
     display: flex;
     flex-direction: column;
@@ -302,6 +322,10 @@ h2{
     font-size: 17px;
     color: #6b6d73;
     margin: 3px;
+}
+
+.footer-player-left-icons i:hover{
+    color: white;
 }
 
 /* MIDDLE */
@@ -332,6 +356,10 @@ h2{
 
 #play-button{
     font-size: 30px;
+}
+
+#play-button:hover{
+    font-size: 35px;
 }
 
 .footer-player-middle-slider{
